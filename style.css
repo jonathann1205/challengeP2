@@ -1,0 +1,27 @@
+/*  ccs header et de la nav */
+header
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav
+ {
+    display: flex;
+    height: 105px;
+    justify-content:space-between;
+    
+ }
+
+ #menu
+ {
+     display: flex;
+     flex-direction: row;
+     margin-top: 25px;
+ }
+
+ #nav
+ {
+     margin-right: 10px;
+     margin-left: 20px;
+ }
