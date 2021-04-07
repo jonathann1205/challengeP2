@@ -1,0 +1,152 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  ccs header et de la nav */
+header
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav
+ {
+    display: flex;
+    height: 105px;
+    justify-content:space-between;
+    
+ }
+
+ #menu
+ {
+     display: flex;
+     flex-direction: row;
+     margin-top: 25px;
+ }
+
+ #nav
+ {
+     margin-right: 10px;
+     margin-left: 20px;
+ }
+
+ /*    */
+
+ #conteneurImg
+ {
+     position: relative;
+     width: 1200px;
+     height: 450px;
+     margin: auto;
+     
+ }
+ #imageBackgroung
+ {
+     width: 1200px;
+     height: 450px;
+     margin:auto;
+ }
+
+ #imgLogoBack
+ {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 500px;
+    bottom: 225px;
+ }
+
+ #msgSousImg
+ {
+    font-size: 2em;
+    position: absolute;
+    left: 457px;
+    bottom: 130px; 
+    color: white;
+ }
+
+ #conteneurText
+ {
+    width: 1200px; 
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+ }
+
+ #icon
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     
+     
+ }
+
+ #msgSousIcons
+ {
+    font-size: 0.5em;
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+
+ #textCitation
+ {
+    
+    font-size: 0.8em;
+    margin-top: 52px;
+    
+ }
+
+ #citation
+ {
+     margin-bottom: 15px;
+     ;
+ }
+
+ #nomPrenom
+ {
+     font-size: 0.8em;
+     color: gray;
+     margin-top: 3px;
+ }
+
+ footer
+ {
+    width: 1200px;
+    height: 220px; 
+    background-color: #5b359d;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #blockFooter
+ {
+    text-align: center;
+    margin-right: auto;
+     margin-left: auto;
+     color: white;
+ }
+
+ #textFooter
+ {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+ }
+
+#blockContact
+{
+    display: flex;
+    height: 166px;
+    justify-content:space-around;
+    text-align: left;
+}
+
+#reseaux
+{
+    font-size: 2em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
