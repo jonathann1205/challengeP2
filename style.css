@@ -1,4 +1,7 @@
-
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
 
 /*  ccs header et de la nav */
 header
@@ -85,4 +88,24 @@ nav
     font-size: 0.5em;
     margin-left: 25px;
     margin-right: 25px;
+ }
+
+ #textCitation
+ {
+    
+    font-size: 0.8em;
+    margin-top: 52px;
+    
+ }
+
+ #citation
+ {
+     margin-bottom: 3px;
+ }
+
+ #nomPrenom
+ {
+     font-size: 0.8em;
+     color: gray;
+     margin-top: 3px;
  }
